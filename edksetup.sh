@@ -42,7 +42,7 @@ function SetWorkspace()
   then
     return 0
   fi
-
+test
   if [ ! ${BASH_SOURCE[0]} -ef ./edksetup.sh ]
   then
     echo Run this script from the base of your tree.  For example:
